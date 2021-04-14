@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="2" ignored="6" total="10" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="88708" started-at="2021-04-09T05:06:59Z" finished-at="2021-04-09T05:08:28Z">
+    <groups>
+      <group name="SmokeTest">
+        <method signature="CreateAccountPageTestCases.CreateAccountTest_01()[pri:0, instance:testcases.CreateAccountPageTestCases@61df66b6]" name="CreateAccountTest_01" class="testcases.CreateAccountPageTestCases"/>
+        <method signature="HomePageTest.verifySignPage_01()[pri:0, instance:testcases.HomePageTest@291ae]" name="verifySignPage_01" class="testcases.HomePageTest"/>
+      </group> <!-- SmokeTest -->
+      <group name="Homepage">
+        <method signature="HomePageTest.contactUsPage_01()[pri:0, instance:testcases.HomePageTest@291ae]" name="contactUsPage_01" class="testcases.HomePageTest"/>
+        <method signature="HomePageTest.verifySignPage_01()[pri:0, instance:testcases.HomePageTest@291ae]" name="verifySignPage_01" class="testcases.HomePageTest"/>
+      </group> <!-- Homepage -->
+      <group name="CreateAccount">
+        <method signature="CreateAccountPageTestCases.CreateAccountTest_01()[pri:0, instance:testcases.CreateAccountPageTestCases@61df66b6]" name="CreateAccountTest_01" class="testcases.CreateAccountPageTestCases"/>
+        <method signature="CreateAccountPageTestCases.CreateAccountTest_02()[pri:0, instance:testcases.CreateAccountPageTestCases@61df66b6]" name="CreateAccountTest_02" class="testcases.CreateAccountPageTestCases"/>
+      </group> <!-- CreateAccount -->
+      <group name="Regression">
+        <method signature="CreateAccountPageTestCases.CreateAccountTest_01()[pri:0, instance:testcases.CreateAccountPageTestCases@61df66b6]" name="CreateAccountTest_01" class="testcases.CreateAccountPageTestCases"/>
+        <method signature="CreateAccountPageTestCases.CreateAccountTest_02()[pri:0, instance:testcases.CreateAccountPageTestCases@61df66b6]" name="CreateAccountTest_02" class="testcases.CreateAccountPageTestCases"/>
+        <method signature="HomePageTest.contactUsPage_01()[pri:0, instance:testcases.HomePageTest@291ae]" name="contactUsPage_01" class="testcases.HomePageTest"/>
+        <method signature="HomePageTest.verifySignPage_01()[pri:0, instance:testcases.HomePageTest@291ae]" name="verifySignPage_01" class="testcases.HomePageTest"/>
+      </group> <!-- Regression -->
+    </groups>
+    <test name="Test" duration-ms="88708" started-at="2021-04-09T05:06:59Z" finished-at="2021-04-09T05:08:28Z">
+      <class name="testcases.CreateAccountPageTestCases">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcases.CreateAccountPageTestCases@61df66b6]" name="beforeMethod" is-config="true" duration-ms="10390" started-at="2021-04-09T05:07:31Z" finished-at="2021-04-09T05:07:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="FAIL" signature="CreateAccountTest_01()[pri:0, instance:testcases.CreateAccountPageTestCases@61df66b6]" name="CreateAccountTest_01" duration-ms="22516" started-at="2021-04-09T05:07:41Z" finished-at="2021-04-09T05:08:04Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='firstname']"}
+  (Session info: chrome=89.0.4389.114)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'IN1-1019286LT', ip: '192.168.160.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.114, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\WINDOWS\TEMP\scoped_dir5...}, goog:chromeOptions: {debuggerAddress: localhost:55903}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 6e0c769c8cb95b649f6424e409e84cc2
+*** Element info: {Using=xpath, value=//input[@id='firstname']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='firstname']"}
+  (Session info: chrome=89.0.4389.114)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'IN1-1019286LT', ip: '192.168.160.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.114, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\WINDOWS\TEMP\scoped_dir5...}, goog:chromeOptions: {debuggerAddress: localhost:55903}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 6e0c769c8cb95b649f6424e409e84cc2
+*** Element info: {Using=xpath, value=//input[@id='firstname']}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+at com.sun.proxy.$Proxy11.findElement(Unknown Source)
+at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy15.sendKeys(Unknown Source)
+at pages.CreateAccountPage.setFirstname(CreateAccountPage.java:85)
+at testcases.CreateAccountPageTestCases.CreateAccountTest_01(CreateAccountPageTestCases.java:19)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:377)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:138)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:465)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateAccountTest_01 -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testcases.CreateAccountPageTestCases@61df66b6]" name="closeBrowser" is-config="true" duration-ms="708" started-at="2021-04-09T05:08:04Z" finished-at="2021-04-09T05:08:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcases.CreateAccountPageTestCases@61df66b6]" name="beforeMethod" is-config="true" duration-ms="9017" started-at="2021-04-09T05:08:05Z" finished-at="2021-04-09T05:08:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="CreateAccountTest_02()[pri:0, instance:testcases.CreateAccountPageTestCases@61df66b6]" name="CreateAccountTest_02" duration-ms="13384" started-at="2021-04-09T05:08:14Z" finished-at="2021-04-09T05:08:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateAccountTest_02 -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testcases.CreateAccountPageTestCases@61df66b6]" name="closeBrowser" is-config="true" duration-ms="684" started-at="2021-04-09T05:08:27Z" finished-at="2021-04-09T05:08:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testcases.CreateAccountPageTestCases -->
+      <class name="testcases.HomePageTest">
+        <test-method status="PASS" signature="testbefore()[pri:0, instance:testcases.HomePageTest@291ae]" name="testbefore" is-config="true" duration-ms="112" started-at="2021-04-09T05:06:59Z" finished-at="2021-04-09T05:06:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testbefore -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcases.HomePageTest@291ae]" name="beforeMethod" is-config="true" duration-ms="11368" started-at="2021-04-09T05:06:59Z" finished-at="2021-04-09T05:07:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="contactUsPage_01()[pri:0, instance:testcases.HomePageTest@291ae]" name="contactUsPage_01" duration-ms="6643" started-at="2021-04-09T05:07:11Z" finished-at="2021-04-09T05:07:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contactUsPage_01 -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testcases.HomePageTest@291ae]" name="closeBrowser" is-config="true" duration-ms="866" started-at="2021-04-09T05:07:17Z" finished-at="2021-04-09T05:07:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcases.HomePageTest@291ae]" name="beforeMethod" is-config="true" duration-ms="9740" started-at="2021-04-09T05:07:18Z" finished-at="2021-04-09T05:07:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="FAIL" signature="verifySignPage_01()[pri:0, instance:testcases.HomePageTest@291ae]" name="verifySignPage_01" duration-ms="2274" started-at="2021-04-09T05:07:28Z" finished-at="2021-04-09T05:07:30Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertTrue(Assert.java:44)
+at org.testng.Assert.assertTrue(Assert.java:54)
+at testcases.HomePageTest.verifySignPage_01(HomePageTest.java:31)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:377)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:138)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:465)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySignPage_01 -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testcases.HomePageTest@291ae]" name="closeBrowser" is-config="true" duration-ms="927" started-at="2021-04-09T05:07:30Z" finished-at="2021-04-09T05:07:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="testafter()[pri:0, instance:testcases.HomePageTest@291ae]" name="testafter" is-config="true" duration-ms="34" started-at="2021-04-09T05:08:28Z" finished-at="2021-04-09T05:08:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testafter -->
+      </class> <!-- testcases.HomePageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

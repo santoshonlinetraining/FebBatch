@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="project_listeners.Listener"/>
+  </listeners>
+  <test name="Test(failed)">
+    <groups>
+      <run>
+        <include name="Regression"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="testcases.CreateAccountPageTestCases">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="closeBrowser"/>
+          <include name="CreateAccountTest_01"/>
+        </methods>
+      </class> <!-- testcases.CreateAccountPageTestCases -->
+      <class name="testcases.HomePageTest">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="closeBrowser"/>
+          <include name="testafter"/>
+          <include name="testbefore"/>
+          <include name="verifySignPage_01"/>
+        </methods>
+      </class> <!-- testcases.HomePageTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
