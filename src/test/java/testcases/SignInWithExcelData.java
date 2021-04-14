@@ -23,6 +23,7 @@ public class SignInWithExcelData extends TestBase {
 		String username = datatable.getCellData("logincred", "username", 2);
 		String password = datatable.getCellData("logincred", "password", 2);
 		
+		//beow are the username and password
 		log.info("Row count of sheet " + rowCount);
 		log.info("Username " + username);
 		log.info("Password " + password);
